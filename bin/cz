@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cmd=$1
+up_cmd=${cmd^}
+shift
+ng-nailgun $up_cmd $@
